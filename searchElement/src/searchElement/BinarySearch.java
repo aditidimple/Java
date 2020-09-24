@@ -1,6 +1,7 @@
 package searchElement;
 
 public class BinarySearch implements Search {
+	//binary search implementation
 	public int search(int[] numbers, int key) {
 		int low = 0;
 		int high = numbers.length - 1;
